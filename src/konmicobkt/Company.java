@@ -5,6 +5,8 @@
  */
 package konmicobkt;
 
+import java.util.Arrays;
+
 /**
  *
  * @author user
@@ -14,4 +16,8 @@ public class Company {
     String companyName;
     Employee employees [];
     
+    @Override
+    public String toString() {
+        return "Company: " + "companyName='" + companyName + '\'' + ", employees='" + Arrays.toString(employees) + '\'';
+    }
 }

@@ -16,7 +16,9 @@ public class Main {
      */
     public static void main(String[] args) {
         Company cl = new Company();
+        System.out.println(cl);
         Employee el = new Employee();
+        System.out.println(el);
     }
     
 }
